@@ -1,0 +1,43 @@
+.wordle{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    
+}
+
+.input-box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+input {
+    all: unset;
+    box-sizing: border-box;
+    border: solid 1px #333;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+}
+
+.correct{
+    background-color: green;
+    color: white;
+}
+
+.include{
+    background-color: orange;
+    color: white;
+}
+
+.wrong{
+    background-color: grey;
+    color: white;
+}
